@@ -78,7 +78,6 @@ public class Login extends JFrame implements ActionListener {
             Main.logger.log(MyLogger.LogLevel.INFO, "Logo Added");
         
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
             Main.logger.log(MyLogger.LogLevel.WARNING, "Logo not found : " + e.getMessage());
         }

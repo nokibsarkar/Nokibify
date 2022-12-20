@@ -18,8 +18,6 @@ public class StudentForm extends JFrame {
     private final JButton submitButton = new JButton("Submit");
     private final JButton readButton = new JButton("Read");
     private boolean isUpdate = false;
-    private JFrame parent;
-
     private void addFields() {
         JPanel panel = new JPanel(new GridLayout(0, 2));
         panel.add(new JLabel("Roll:", SwingConstants.RIGHT));
@@ -110,7 +108,6 @@ public class StudentForm extends JFrame {
 
     public StudentForm(JFrame parent) {
         super("Student Form");
-        this.parent = parent;
         addFields();
         submitButton.addActionListener(e -> {
             if (isUpdate()) {

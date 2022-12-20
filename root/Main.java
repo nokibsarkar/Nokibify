@@ -1,10 +1,6 @@
 package root;
 import java.io.IOException;
 
-/*
- * This program would create an window with java swing
- * The window consists of 
- */
 import javax.swing.*;
 class Main extends JFrame{
     public static MyLogger logger ;
@@ -15,7 +11,6 @@ class Main extends JFrame{
             logger = new MyLogger();
             logger.log(MyLogger.LogLevel.INFO, "Author: " + authorString);
         } catch (SecurityException | IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         setLocationRelativeTo(null);
@@ -23,6 +18,7 @@ class Main extends JFrame{
     private void showStudents(){
         System.out.println("Showing students");
         StudentList studentList= new StudentList(this);
+        studentList.toString();
     }
     protected void finalize(){
         System.out.println("Exit");
