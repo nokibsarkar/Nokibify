@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-20T21:15:20</date>
+  <millis>1671549320001</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-20T21:20:53</date>
+  <millis>1671549653096</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-20T21:20:53</date>
+  <millis>1671549653238</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-20T21:20:53</date>
+  <millis>1671549653239</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window maximized</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-20T21:22:14</date>
+  <millis>1671549734008</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-20T21:22:14</date>
+  <millis>1671549734160</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-20T21:22:14</date>
+  <millis>1671549734161</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window maximized</message>
+</record>
+</log>
