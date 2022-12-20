@@ -12,11 +12,6 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.imageio.*;
-import javafx.event.ActionEvent;
-import javafx.scene.layout.GridPane;
-
-import java.security.*;
-import java.util.*;
 import java.io.*;
 import java.util.concurrent.Callable;
 import java.awt.image.BufferedImage;
@@ -27,7 +22,9 @@ public class Login extends JFrame implements ActionListener {
     private JTextField usernameField = new JTextField(20);
     private JPasswordField passwordField = new JPasswordField(20);
     private JButton loginButton = new JButton("<html><p style='text-align:center'>Login</p></html>");
-    private JLabel returnMessage = new JLabel("Return Message", SwingConstants.CENTER);
+    private final String username = "RuIT";
+    private final String password = "RuIT";
+    private JLabel returnMessage = new JLabel("Both the username and password is " + username, SwingConstants.CENTER);
     /**
      *
      */
@@ -39,7 +36,7 @@ public class Login extends JFrame implements ActionListener {
         this.loginCallback = loginCallback;
     }
     private void login(String username, String password){
-        if(username.equals("admin") && password.equals("admin")){
+        if(username.equals(this.username) && password.equals(this.password)){
            System.out.println("Login Success");
            try{
               this.loginCallback.call();
@@ -75,7 +72,7 @@ public class Login extends JFrame implements ActionListener {
     private void addLogo(){
         BufferedImage myPicture;
         try {
-            myPicture = ImageIO.read(new File("/hom/nokib/Data/Projects/Personal/OOP-Lab/Nokibify/root/RUET_logo.svg.png"));
+            myPicture = ImageIO.read(new File("root/RUET_logo.svg.png"));
             ImageIcon ico = new ImageIcon(myPicture.getScaledInstance(120, 120, Image.SCALE_SMOOTH));
             contentPan.add(new JLabel(ico));
             Main.logger.log(MyLogger.LogLevel.INFO, "Logo Added");
@@ -108,7 +105,7 @@ public class Login extends JFrame implements ActionListener {
         super();
         this.parent = parent;
         contentPan = parent.getContentPane();
-        
+        parent.setResizable(false);
         this.loginButton.addActionListener(this);
         Main.logger.log(MyLogger.LogLevel.INFO, "Action listener for login button added");
         createGUI();

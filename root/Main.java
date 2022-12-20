@@ -6,7 +6,6 @@ import java.io.IOException;
  * The window consists of 
  */
 import javax.swing.*;
-import root.Login;
 class Main extends JFrame{
     public static MyLogger logger ;
     public String authorString = "Nazmul Haque Naqib";
@@ -23,7 +22,7 @@ class Main extends JFrame{
     }
     private void showStudents(){
         System.out.println("Showing students");
-        StudentForm studentForm = new StudentForm(this);
+        StudentList studentList= new StudentList(this);
     }
     protected void finalize(){
         System.out.println("Exit");
@@ -39,6 +38,12 @@ class Main extends JFrame{
             login.close();
             main.showStudents();
             return "Success";
+        });
+        main.addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+                main.dispose();
+                System.exit(0);
+            }
         });
         main.setSize(500, 500);
         main.setVisible(true);

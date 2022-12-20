@@ -69,7 +69,7 @@ public class Student implements Serializable {
     public void setEmail(String email) {
         this.email = email;
     }
-    private String getResult(){
+    public String getResult(){
         String message = "Roll: " + roll + " got " + cgpa + " CGPA in " + semester + " semester of " + session + " session";
         return message;
     }

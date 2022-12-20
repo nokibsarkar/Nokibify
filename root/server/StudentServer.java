@@ -1,36 +1,36 @@
 package root.server;
 
 import java.io.*;
-import java.util.HashMap;
+import java.util.TreeMap;
 
 public class StudentServer {
     private static final String file = "student.ser";
-    private final static HashMap<Integer, Student> students = new HashMap<Integer, Student>();
+    private final static TreeMap<Integer, Student> students = new TreeMap<Integer, Student>();
     public static int studentCount = 0;
 
-    public static HashMap<Integer, Student> readStudents() {
+    public static TreeMap<Integer, Student> readStudents() {
         // Open the file
         if (students.isEmpty()) {
             System.out.println("Reading from the file");
-            HashMap<Integer, Student> temp = new HashMap<Integer, Student>();
+            TreeMap<Integer, Student> temp = new TreeMap<Integer, Student>();
             try {
                 FileInputStream fileIn = new FileInputStream(file);
                 ObjectInputStream in = new ObjectInputStream(fileIn);
-                // Read the file into a hashmap of students where the key is the roll number
-                temp = (HashMap<Integer, Student>) in.readObject();
+                // Read the file into a TreeMap of students where the key is the roll number
+                temp = (TreeMap<Integer, Student>) in.readObject();
                 in.close();
                 fileIn.close();
             } catch (IOException i) {
-                temp = new HashMap<Integer, Student>();
+                temp = new TreeMap<Integer, Student>();
                 i.printStackTrace();
             } catch (ClassNotFoundException c) {
-                temp = new HashMap<Integer, Student>();
+                temp = new TreeMap<Integer, Student>();
                 System.out.println("Student class not found");
                 c.printStackTrace();
             }
             students.putAll(temp);
         }
-        // Return the students hashmap
+        // Return the students TreeMap
         return students;
     }
     public static Student getStudent(int roll) {
