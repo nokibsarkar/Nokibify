@@ -87,3 +87,738 @@
   <message>Login Window maximized</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:17:35</date>
+  <millis>1671560255737</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:17:35</date>
+  <millis>1671560255848</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-21T00:17:35</date>
+  <millis>1671560255849</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:18:19</date>
+  <millis>1671560299136</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:18:19</date>
+  <millis>1671560299241</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-21T00:18:19</date>
+  <millis>1671560299243</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:20:02</date>
+  <millis>1671560402332</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:20:02</date>
+  <millis>1671560402444</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-21T00:20:02</date>
+  <millis>1671560402446</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:21:24</date>
+  <millis>1671560484350</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:21:24</date>
+  <millis>1671560484470</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-21T00:21:24</date>
+  <millis>1671560484471</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:25:26</date>
+  <millis>1671560726556</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:25:26</date>
+  <millis>1671560726666</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:26:45</date>
+  <millis>1671560805097</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:26:45</date>
+  <millis>1671560805231</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T00:26:45</date>
+  <millis>1671560805474</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:27:09</date>
+  <millis>1671560829587</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:27:09</date>
+  <millis>1671560829693</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T00:27:09</date>
+  <millis>1671560829985</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:28:11</date>
+  <millis>1671560891714</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:28:11</date>
+  <millis>1671560891819</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T00:28:12</date>
+  <millis>1671560892092</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:31:21</date>
+  <millis>1671561081353</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:31:21</date>
+  <millis>1671561081464</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T00:31:21</date>
+  <millis>1671561081730</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Logo Added</message>
+</record>
+<record>
+  <date>2022-12-21T00:31:21</date>
+  <millis>1671561081732</millis>
+  <sequence>3</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:36:00</date>
+  <millis>1671561360019</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:36:00</date>
+  <millis>1671561360147</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T00:36:00</date>
+  <millis>1671561360153</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>WARNING</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Logo not found : Can't read input file!</message>
+</record>
+<record>
+  <date>2022-12-21T00:36:00</date>
+  <millis>1671561360155</millis>
+  <sequence>3</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T00:38:19</date>
+  <millis>1671561499855</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T00:38:19</date>
+  <millis>1671561499967</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T00:38:19</date>
+  <millis>1671561499973</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>WARNING</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Logo not found : Can't read input file!</message>
+</record>
+<record>
+  <date>2022-12-21T00:38:19</date>
+  <millis>1671561499974</millis>
+  <sequence>3</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-21T00:39:58</date>
+  <millis>1671561598261</millis>
+  <sequence>4</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Login Window Closed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T01:31:50</date>
+  <millis>1671564710455</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T01:31:50</date>
+  <millis>1671564710561</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T01:31:50</date>
+  <millis>1671564710567</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>WARNING</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Logo not found : Can't read input file!</message>
+</record>
+<record>
+  <date>2022-12-21T01:31:50</date>
+  <millis>1671564710568</millis>
+  <sequence>3</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-21T01:32:04</date>
+  <millis>1671564724491</millis>
+  <sequence>4</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Login Window Closed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T01:34:31</date>
+  <millis>1671564871293</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T01:34:31</date>
+  <millis>1671564871412</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T01:34:31</date>
+  <millis>1671564871419</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>WARNING</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Logo not found : Can't read input file!</message>
+</record>
+<record>
+  <date>2022-12-21T01:34:31</date>
+  <millis>1671564871421</millis>
+  <sequence>3</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-21T01:34:39</date>
+  <millis>1671564879860</millis>
+  <sequence>4</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Login Window Closed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T01:37:04</date>
+  <millis>1671565024247</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T01:37:04</date>
+  <millis>1671565024368</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T01:37:04</date>
+  <millis>1671565024374</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>WARNING</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Logo not found : Can't read input file!</message>
+</record>
+<record>
+  <date>2022-12-21T01:37:04</date>
+  <millis>1671565024376</millis>
+  <sequence>3</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-21T01:37:12</date>
+  <millis>1671565032351</millis>
+  <sequence>4</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Login Window Closed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T01:38:02</date>
+  <millis>1671565082719</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T01:38:02</date>
+  <millis>1671565082828</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T01:38:02</date>
+  <millis>1671565082835</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>WARNING</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Logo not found : Can't read input file!</message>
+</record>
+<record>
+  <date>2022-12-21T01:38:02</date>
+  <millis>1671565082837</millis>
+  <sequence>3</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-21T01:38:09</date>
+  <millis>1671565089748</millis>
+  <sequence>4</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Login Window Closed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-21T01:42:52</date>
+  <millis>1671565372700</millis>
+  <sequence>0</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Author: Nazmul Haque Naqib</message>
+</record>
+<record>
+  <date>2022-12-21T01:42:52</date>
+  <millis>1671565372827</millis>
+  <sequence>1</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Action listener for login button added</message>
+</record>
+<record>
+  <date>2022-12-21T01:42:52</date>
+  <millis>1671565372833</millis>
+  <sequence>2</sequence>
+  <logger>root.MyLogger</logger>
+  <level>WARNING</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Logo not found : Can't read input file!</message>
+</record>
+<record>
+  <date>2022-12-21T01:42:52</date>
+  <millis>1671565372835</millis>
+  <sequence>3</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Login Window Created</message>
+</record>
+<record>
+  <date>2022-12-21T01:43:00</date>
+  <millis>1671565380140</millis>
+  <sequence>4</sequence>
+  <logger>root.MyLogger</logger>
+  <level>INFO</level>
+  <class>root.MyLogger</class>
+  <method>log</method>
+  <thread>14</thread>
+  <message>Login Window Closed</message>
+</record>
+</log>

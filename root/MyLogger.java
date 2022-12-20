@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.util.logging.*;
 public class MyLogger extends FileHandler {
     public static enum LogLevel {
-        ALL, CONFIG, FINE, FINER, FINEST, INFO, OFF, SEVERE, WARNING
+        ALL, CONFIG, FINE, FINER, FINEST, INFO, OFF, SEVERE, WARNING, ERROR
     }
     private static Logger logger = Logger.getLogger(MyLogger.class.getName());
     public MyLogger() throws SecurityException, IOException{
@@ -36,6 +36,9 @@ public class MyLogger extends FileHandler {
                 logger.log(Level.OFF, message);
                 break;
             case SEVERE:
+                logger.log(Level.SEVERE, message);
+                break;
+            case ERROR:
                 logger.log(Level.SEVERE, message);
                 break;
             case WARNING:

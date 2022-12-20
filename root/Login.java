@@ -31,6 +31,8 @@ public class Login extends JFrame implements ActionListener {
     /**
      *
      */
+    private JFrame parent;
+    private Container contentPan;
     private Callable<String> loginCallback;
     private Border padding = BorderFactory.createEmptyBorder(50, 50, 50, 50);
     public void registerLoginCallback(Callable<String> loginCallback){
@@ -70,47 +72,59 @@ public class Login extends JFrame implements ActionListener {
         this.login(username, String.valueOf(password));
 
     }
-    Login(){
-        super();
-        Main.logger.log(MyLogger.LogLevel.INFO, "Login Window Created");
-        Container contentPan = this.getContentPane();
-        this.loginButton.setMaximumSize(new Dimension(40, 40));
-        Main.logger.log(MyLogger.LogLevel.INFO, "Login Window Created");
-        this.loginButton.addActionListener(this);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
-        GridLayout layout = new GridLayout(0, 1);
-        this.setLayout(layout);
+    private void addLogo(){
         BufferedImage myPicture;
         try {
-            myPicture = ImageIO.read(new File("/home/nokib/Data/Projects/Personal/OOP-Lab/Nokibify/root/RUET_logo.svg.png"));
+            myPicture = ImageIO.read(new File("/hom/nokib/Data/Projects/Personal/OOP-Lab/Nokibify/root/RUET_logo.svg.png"));
             ImageIcon ico = new ImageIcon(myPicture.getScaledInstance(120, 120, Image.SCALE_SMOOTH));
             contentPan.add(new JLabel(ico));
+            Main.logger.log(MyLogger.LogLevel.INFO, "Logo Added");
+        
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
+            Main.logger.log(MyLogger.LogLevel.WARNING, "Logo not found : " + e.getMessage());
         }
-        
-        contentPan.add(this.returnMessage);
-        
+    }
+    private void addTextfields(){
         JPanel internalPanel = new JPanel(new GridLayout(0, 2));
         //internalPanel.setBorder(this.padding);
-        
         internalPanel.add(this.usernameLabel);
         internalPanel.add(this.usernameField);
         internalPanel.add(this.passwordLabel);
         internalPanel.add(this.passwordField);
-
-        this.loginButton.setBorder(padding);
         contentPan.add(internalPanel);
-        this.setSize(500, 500);
+    }
+    private void createGUI(){
+        GridLayout layout = new GridLayout(0, 1);
+        contentPan.setLayout(layout);
+        addLogo();
+        contentPan.add(this.returnMessage);
+        addTextfields();
+        this.loginButton.setBorder(padding);
         contentPan.add(this.loginButton);
+    }
+    Login(JFrame parent){
+        super();
+        this.parent = parent;
+        contentPan = parent.getContentPane();
         
-        this.setResizable(false);;
+        this.loginButton.addActionListener(this);
+        Main.logger.log(MyLogger.LogLevel.INFO, "Action listener for login button added");
+        createGUI();
+        Main.logger.log(MyLogger.LogLevel.INFO, "Login Window Created");
+        // parent.addWindowListener(new WindowAdapter(){
+        //     public void windowClosing(WindowEvent e){
+        //         close();
+        //     }
+        // });
     }
     public void close(){
-        this.setVisible(false);
-        System.out.println("Closed");
+        contentPan.removeAll();
+        parent.setVisible(false);
+        parent.setResizable(true);
+        Main.logger.log(MyLogger.LogLevel.INFO, "Login Window Closed");
+        parent.removeWindowListener(null);
     }
    
 }

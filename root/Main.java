@@ -21,6 +21,10 @@ class Main extends JFrame{
         }
         setLocationRelativeTo(null);
     }
+    private void showStudents(){
+        System.out.println("Showing students");
+        StudentForm studentForm = new StudentForm(this);
+    }
     protected void finalize(){
         System.out.println("Exit");
         logger.log(MyLogger.LogLevel.INFO, "Program Terminated");
@@ -28,13 +32,15 @@ class Main extends JFrame{
     }
     public static void main(String args[]){
         Main main = new Main();
-        
-        Login login = new Login(main.getContentPane());
+        Login login = new Login(main);
+        login.setLocationRelativeTo(null);
         login.registerLoginCallback(() -> {
             System.out.println("From callback");
             login.close();
+            main.showStudents();
             return "Success";
         });
+        main.setSize(500, 500);
         main.setVisible(true);
     }
 }
