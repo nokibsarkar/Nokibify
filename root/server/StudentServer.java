@@ -25,8 +25,7 @@ public class StudentServer {
                 i.printStackTrace();
             } catch (ClassNotFoundException c) {
                 temp = new TreeMap<Integer, Student>();
-                System.out.println("Student class not found");
-                c.printStackTrace();
+                System.out.println(c.getMessage());
             }
             students.putAll(temp);
         }
@@ -46,7 +45,7 @@ public class StudentServer {
             out.writeObject(students);
             out.close();
             fileOut.close();
-            System.out.printf("Serialized data is saved in " + file);
+            System.out.println("Serialized data is saved in " + file);
         } catch (IOException i) {
             i.printStackTrace();
         }
