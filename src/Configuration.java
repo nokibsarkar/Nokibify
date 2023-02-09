@@ -15,6 +15,8 @@ public abstract class Configuration {
     static StageOptions studentListOptions = new StageOptions(600, 450, false, "Student List");
     static StageOptions studentRegisterOptions = new StageOptions(600, 450, false, "Student Register");
     static StageOptions studentEditOptions = new StageOptions(600, 450, false, "Student Edit");
+    static StageOptions aboutOptions = new StageOptions(700, 300, false, "About");
+    static StageOptions menuOptions = new StageOptions(600, 450, false, "Menu");
     static String gameHelp = "No help available";
     public static String getGameHelp(){
         if(gameHelp == null){
@@ -46,6 +48,10 @@ public abstract class Configuration {
                 return studentRegisterOptions;
             case "studentEdit":
                 return studentEditOptions;
+            case "about":
+                return aboutOptions;
+            case "menu":
+                return menuOptions;
             default:
                 return defaultStageOptions;
         }

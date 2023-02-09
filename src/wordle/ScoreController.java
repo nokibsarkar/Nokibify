@@ -44,8 +44,6 @@ public class ScoreController {
         aboutMenu.setOnAction(sceneManager.goToSceneEventHandler("about"));
         listStudentMenu.setOnAction(sceneManager.goToSceneEventHandler("studentList"));
         addStudentMenu.setOnAction(sceneManager.goToSceneEventHandler("studentAdd"));
-
-
         TableColumn<Score, String> dateCol = new TableColumn<>("Date");
         TableColumn<Score, String> scoreCol = new TableColumn<>("Score");
         TableColumn<Score, String> targetCol = new TableColumn<>("Target");

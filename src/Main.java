@@ -1,3 +1,7 @@
+/**
+ * এই সফটওয়্যারটি রাজশাহী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ের ১-২ সেমিস্টারের বার্ষিক প্রজেক্ট শোকেসের জন্য ডেমো হিসেবে তৈরি করা হয়েছে।
+ * */
+
 package src;
 
 import java.io.IOException;
@@ -22,6 +26,9 @@ public class Main extends Application {
         MyLogger.log("Constructing the student management");
         studentManagement = new StudentManagement(sceneManager);
     }
+
+
+
     void constructLoginPage() throws IOException{
         MyLogger.log("Constructing the login page");
         // Create the root
@@ -53,9 +60,18 @@ public class Main extends Application {
         MenuController menuController = (MenuController) loader.getController();
         menuController.init(sceneManager);
         
-        menuScene.setStageOptions(Configuration.getOptions("login"));
+        menuScene.setStageOptions(Configuration.getOptions("menu"));
         MyLogger.log("Adding the scene to the scene manager");
         sceneManager.addScene(menuScene, "menu");
+    }
+    private void constructAboutPage() throws IOException{
+        MyLogger.log("Constructing the about page");
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("about.fxml"));
+        Parent root = loader.load();
+        WholeScene aboutScene = new WholeScene(root);
+        aboutScene.setStageOptions(Configuration.getOptions("about"));
+        MyLogger.log("Adding the scene to the scene manager");
+        sceneManager.addScene(aboutScene, "about");
     }
     void construct(Stage stage){
         MyLogger.log("Constructing the scenes");
@@ -65,6 +81,7 @@ public class Main extends Application {
             constructGamePage();
             contructStudentManagement();
             constructMenuScene();
+            constructAboutPage();
             MyLogger.log("Adding Icon");
             stage.getIcons().add(loadIcon());
             MyLogger.log("Ctrl + X handler");
