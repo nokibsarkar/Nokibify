@@ -87,7 +87,7 @@ public class Main extends Application {
     public void start(Stage stage) {
         construct(stage);
 
-        sceneManager.goToSceneCallback("menu").call(null);
+        sceneManager.goToSceneCallback("login").call(null);
         MyLogger.log("Showing the stage");
         stage.show();
     }
