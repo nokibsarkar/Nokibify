@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="402.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.MenuController">
+   <children>
+      <Button layoutX="96.0" layoutY="230.0" mnemonicParsing="false" onAction="#goToStudentManagement" prefHeight="59.0" prefWidth="186.0" text="Student Section" AnchorPane.bottomAnchor="110.0" AnchorPane.leftAnchor="90.0" />
+      <Button layoutX="327.0" layoutY="230.0" mnemonicParsing="false" onAction="#goToWordle" prefHeight="59.0" prefWidth="186.0" text="Wordle Game" AnchorPane.bottomAnchor="110.0" AnchorPane.rightAnchor="90.0" />
+      <Button layoutX="221.0" layoutY="325.0" mnemonicParsing="false" onAction="#logout" prefHeight="52.0" prefWidth="158.0" text="Log Out" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="220.0" />
+      <ImageView fitHeight="200.0" fitWidth="173.0" layoutX="214.0" layoutY="14.0" AnchorPane.leftAnchor="213.5" AnchorPane.rightAnchor="213.5" AnchorPane.topAnchor="15.0">
+         <image>
+            <Image url="@../assets/ruet%20logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

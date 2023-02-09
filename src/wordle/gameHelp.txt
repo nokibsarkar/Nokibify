@@ -1,0 +1,6 @@
+Wordle is a game where you have to guess a word.
+You have 5 chances to guess the word.
+On each guess, the machine would give the following colors as a hint:
+GREEN : The chosen letter is on the correct position of your target word.
+BLUE : The chosen letter is present on the target word but not at this position.
+RED : The chosen word does not exist on the target word.

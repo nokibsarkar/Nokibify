@@ -1,13 +1,15 @@
-package root.server;
+package src.student.server;
 
 import java.io.*;
 import java.util.TreeMap;
 
+import src.MyLogger;
+
 public class StudentServer {
-    private static final String file = "student.ser";
+    private static final String file = "src/student/student.ser";
     private final static TreeMap<Integer, Student> students = new TreeMap<Integer, Student>();
     public static int studentCount = 0;
-
+    
     public static TreeMap<Integer, Student> readStudents() {
         // Open the file
         if (students.isEmpty()) {
@@ -20,12 +22,9 @@ public class StudentServer {
                 temp = (TreeMap<Integer, Student>) in.readObject();
                 in.close();
                 fileIn.close();
-            } catch (IOException i) {
+            } catch (ClassNotFoundException | IOException i) {
                 temp = new TreeMap<Integer, Student>();
-                i.printStackTrace();
-            } catch (ClassNotFoundException c) {
-                temp = new TreeMap<Integer, Student>();
-                System.out.println(c.getMessage());
+                MyLogger.log(i);
             }
             students.putAll(temp);
         }
@@ -47,7 +46,7 @@ public class StudentServer {
             fileOut.close();
             System.out.println("Serialized data is saved in " + file);
         } catch (IOException i) {
-            i.printStackTrace();
+            MyLogger.log(i);
         }
     }
     public static void addStudent(Student student) {
